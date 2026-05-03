@@ -1,0 +1,12 @@
+a = int(20)
+if(a<=100):
+    print(a*5,"Rupees only/-")
+    print("your consumed units are",a)
+elif(a>100):
+    print(a*7,"Rupees only")
+    print("your consumed units are",a)
+elif(a>200):
+    print(a*10)
+    print("your consumed units are",a)
+
+print("Pay now ")
